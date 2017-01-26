@@ -1,0 +1,9 @@
+{
+  "autoload": {
+    "psr-4": {"FrankSons\\": "src/FrankSons/"}
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "5.7.5"
+  }
+}
