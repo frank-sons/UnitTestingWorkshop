@@ -3,10 +3,10 @@
 
 namespace FrankSons\UnitTesting\Tests\Validator;
 
-require_once '../../Validator/ZipCodeValidator.php';
 use FrankSons\UnitTesting\Validator\ZipCodeValidator;
+use PHPUnit_Framework_TestCase;
 
-class ZipCodeValidatorTest extends \PHPUnit_Framework_TestCase
+class ZipCodeValidatorTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @var ZipCodeValidator

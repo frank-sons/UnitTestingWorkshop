@@ -3,10 +3,10 @@
 
 namespace FrankSons\UnitTesting\Tests\Validator;
 
-require_once '../../Validator/EmailValidator.php';
 use FrankSons\UnitTesting\Validator\EmailValidator;
+use PHPUnit_Framework_TestCase;
 
-class EmailValidatorTest extends \PHPUnit_Framework_TestCase
+class EmailValidatorTest extends PHPUnit_Framework_TestCase
 {
     /**
      * @var EmailValidator

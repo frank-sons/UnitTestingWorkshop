@@ -1,9 +1,16 @@
 {
+  "name": "franksons/unittesting",
+  "authors": [
+      {
+        "name": "frank-sons",
+        "email": "frank.sons@code-quality.de"
+      }
+    ],
   "autoload": {
     "psr-4": {"FrankSons\\": "src/FrankSons/"}
   },
 
-  "require-dev": {
+  "require": {
     "phpunit/phpunit": "5.7.5"
   }
 }

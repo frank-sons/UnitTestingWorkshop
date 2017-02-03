@@ -21,6 +21,11 @@
     stopOnRisky="false"
     testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
     <!--testSuiteLoaderFile="/path/to/StandardTestSuiteLoader.php"-->
+    <!--<testsuites>
+        <testsuite name="Validator">
+            <directory>Validator</directory>
+        </testsuite>
+    </testsuites>-->
     timeoutForSmallTests="1"
     timeoutForMediumTests="10"
     timeoutForLargeTests="60"
