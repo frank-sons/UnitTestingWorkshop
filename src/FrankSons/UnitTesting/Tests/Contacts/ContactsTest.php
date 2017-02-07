@@ -1,8 +1,8 @@
 <?php
 
-
 namespace Contacts;
 
+require_once __DIR__ . '/../bootstrap.php';
 
 use FrankSons\UnitTesting\Contacts\Contacts;
 use FrankSons\UnitTesting\Validator\EmailValidator;

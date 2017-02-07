@@ -1,7 +1,8 @@
 <?php
 
-
 namespace FrankSons\UnitTesting\Tests\Validator;
+
+require_once __DIR__ . '/../bootstrap.php';
 
 use FrankSons\UnitTesting\Validator\EmailValidator;
 use PHPUnit_Framework_TestCase;
