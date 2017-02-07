@@ -42,7 +42,17 @@ class ContactsTest extends PHPUnit_Framework_TestCase
      */
     public function testAddingValidEmail()
     {
-        $this->markTestIncomplete('not yet implemented');
+        $userId = 42;
+        $email = 'frank.sons+unitTesting@code-quality.de';
+
+        $this->emailValidatorMock->expects($this->once())
+            ->method('isValid')
+            ->with($email)
+            ->willReturn(true);
+
+        $contacts = new Contacts($this->emailValidatorMock, $this->zipCodeValidatorMock);
+
+       $this->assertTrue($contacts->addEmail($userId, $email));
     }
 
     /**
