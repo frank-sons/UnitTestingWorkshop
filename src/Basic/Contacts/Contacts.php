@@ -1,10 +1,10 @@
 <?php
 
 
-namespace FrankSons\UnitTesting\Contacts;
+namespace FrankSons\UnitTesting\Basic\Contacts;
 
-use FrankSons\UnitTesting\Validator\EmailValidator;
-use FrankSons\UnitTesting\Validator\ZipCodeValidator;
+use FrankSons\UnitTesting\Basic\Validator\EmailValidator;
+use FrankSons\UnitTesting\Basic\Validator\ZipCodeValidator;
 
 class Contacts
 {

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FrankSons\UnitTesting\Validator;
+namespace FrankSons\UnitTesting\Basic\Validator;
 
 
 class ZipCodeValidator implements ValidatorInterface

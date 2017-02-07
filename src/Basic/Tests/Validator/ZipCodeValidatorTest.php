@@ -1,10 +1,10 @@
 <?php
 
-namespace FrankSons\UnitTesting\Tests\Validator;
+namespace FrankSons\UnitTesting\Basic\Tests\Validator;
 
 require_once __DIR__ . '/../bootstrap.php';
 
-use FrankSons\UnitTesting\Validator\ZipCodeValidator;
+use FrankSons\UnitTesting\Basic\Validator\ZipCodeValidator;
 use PHPUnit_Framework_TestCase;
 
 class ZipCodeValidatorTest extends PHPUnit_Framework_TestCase
