@@ -4,7 +4,7 @@
 namespace FrankSons\UnitTesting\Validator;
 
 
-class EmailValidator
+class EmailValidator implements ValidatorInterface
 {
     /**
      * check if email is valid

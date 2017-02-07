@@ -4,7 +4,7 @@
 namespace FrankSons\UnitTesting\Validator;
 
 
-class ZipCodeValidator
+class ZipCodeValidator implements ValidatorInterface
 {
     /**
      * check if zip code is valid
