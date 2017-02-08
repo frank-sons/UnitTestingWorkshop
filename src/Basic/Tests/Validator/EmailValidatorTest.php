@@ -14,6 +14,9 @@ class EmailValidatorTest extends PHPUnit_Framework_TestCase
      */
     private $emailValidator;
 
+    /**
+     * basic setup before each test
+     */
     protected function setUp()
     {
         $this->emailValidator = new EmailValidator();
