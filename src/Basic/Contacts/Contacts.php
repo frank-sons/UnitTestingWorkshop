@@ -43,7 +43,7 @@ class Contacts
     public function addEmail($userId, $email)
     {
         if ($this->emailValidator->isValid($email)) {
-            $users[$userId]['email'] = $email;
+            $this->users[$userId]['email'] = $email;
             return true;
         }
         return false;
@@ -58,7 +58,7 @@ class Contacts
     public function addZipCode($userId, $zipCode)
     {
         if ($this->zipCodeValidator->isValid($zipCode)) {
-            $users[$userId]['zipcode'] = $zipCode;
+            $this->users[$userId]['zipcode'] = $zipCode;
             return true;
         }
         return false;
