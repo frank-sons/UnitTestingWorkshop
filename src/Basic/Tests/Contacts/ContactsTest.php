@@ -2,7 +2,7 @@
 
 namespace FrankSons\UnitTesting\Basic\Tests\Contacts;
 
-require_once __DIR__ . '/../bootstrap.php';
+require_once __DIR__ . '/../../../bootstrap.php';
 
 use FrankSons\UnitTesting\Basic\Contacts\Contacts;
 use FrankSons\UnitTesting\Basic\Validator\EmailValidator;
@@ -15,7 +15,7 @@ use PHPUnit_Framework_MockObject_MockObject;
 class ContactsTest extends TestCase
 {
     /**
-     * @var EmailValidator|MockObject
+     * @var EmailValidator|PHPUnit_Framework_MockObject_MockObject
      */
     private $emailValidatorMock;
 

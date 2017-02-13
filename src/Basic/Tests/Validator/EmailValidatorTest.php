@@ -2,7 +2,7 @@
 
 namespace FrankSons\UnitTesting\Basic\Tests\Validator;
 
-require_once __DIR__ . '/../bootstrap.php';
+require_once __DIR__ . '/../../../bootstrap.php';
 
 use FrankSons\UnitTesting\Basic\Validator\EmailValidator;
 use PHPUnit\Framework\TestCase;
