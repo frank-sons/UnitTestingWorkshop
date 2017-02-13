@@ -7,14 +7,15 @@ require_once __DIR__ . '/../bootstrap.php';
 use FrankSons\UnitTesting\Basic\Contacts\Contacts;
 use FrankSons\UnitTesting\Basic\Validator\EmailValidator;
 use FrankSons\UnitTesting\Basic\Validator\ZipCodeValidator;
+use PHPUnit\Framework\TestCase;
 use PHPUnit_Framework_MockObject_MockObject;
-use PHPUnit_Framework_TestCase;
 
 
-class ContactsTest extends PHPUnit_Framework_TestCase
+
+class ContactsTest extends TestCase
 {
     /**
-     * @var EmailValidator|PHPUnit_Framework_MockObject_MockObject
+     * @var EmailValidator|MockObject
      */
     private $emailValidatorMock;
 

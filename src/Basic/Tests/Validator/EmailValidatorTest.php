@@ -5,9 +5,9 @@ namespace FrankSons\UnitTesting\Basic\Tests\Validator;
 require_once __DIR__ . '/../bootstrap.php';
 
 use FrankSons\UnitTesting\Basic\Validator\EmailValidator;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class EmailValidatorTest extends PHPUnit_Framework_TestCase
+class EmailValidatorTest extends TestCase
 {
     /**
      * @var EmailValidator
